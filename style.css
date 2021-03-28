@@ -5,6 +5,7 @@ html, body {
   body {
     background: radial-gradient(circle at 20px 80px, #dda0dd, #100a1c) no-repeat;
     user-select: none;
+    overflow: hidden;
   }
   .container{
     width: 25%;
