@@ -8,7 +8,7 @@ html, body {
   }
   .container{
     width: 25%;
-    margin: 0 auto;
+    margin: 30px auto;
   }
   #calc {
     display: grid;
@@ -53,5 +53,28 @@ html, body {
   .my-input[type=text] {
     font-size: 20px;
   }
+
+  @media(max-width: 1000px) {
+    .container{
+        width: 40%;
+    }
+  }
+  @media(max-width: 550px){
+      .container{
+          width: 60%;
+      }
+      #calc {
+        grid-gap: 2vw;
+    }
+  }
+  @media(max-width: 400px){
+    .container{
+        width: 80%;
+    }
+    .container > button {
+        padding: .3em;
+    }
+    
+}
   
   
